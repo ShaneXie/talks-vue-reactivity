@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1 id="y"></h1>
+    <script>
+      let state = {
+        x: 1
+      };
+
+      function renderY() {
+        document.getElementById("y").innerText = `y = x + 1 = ${state.x + 1}`;
+      }
+      renderY();
+    </script>
+  </body>
+</html>
